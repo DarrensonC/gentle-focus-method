@@ -7,6 +7,14 @@
     {
       "source": "/",
       "destination": "/front1.html"
+    },
+    {
+      "source": "/front1",
+      "destination": "/front1.html"
+    },
+    {
+      "source": "/up",
+      "destination": "/up.html"
     }
   ]
 }
