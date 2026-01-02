@@ -15,6 +15,10 @@
     {
       "source": "/up",
       "destination": "/up.html"
+    },
+    {
+      "source": "/obrigado",
+      "destination": "/obrigado.html"
     }
   ]
 }
