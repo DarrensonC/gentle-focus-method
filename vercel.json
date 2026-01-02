@@ -6,15 +6,15 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/front1.html"
+      "destination": "/front1"
     },
     {
       "source": "/front1",
-      "destination": "/front1.html"
+      "destination": "/front1"
     },
     {
       "source": "/up",
-      "destination": "/up.html"
+      "destination": "/up"
     }
   ]
 }
