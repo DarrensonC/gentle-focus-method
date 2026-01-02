@@ -1,0 +1,14 @@
+INSTRUÇÕES PARA A FOTO DA ESPECIALISTA
+=====================================
+
+Coloque a foto de Stephanie Miller nesta pasta com o nome:
+
+stephanie-miller.jpg
+
+A foto será exibida automaticamente na seção da especialista.
+
+Recomendações:
+- Formato: JPG ou PNG
+- Tamanho recomendado: 800x1067 pixels (proporção 3:4)
+- Qualidade: Boa resolução para web (não muito pesada)
+
