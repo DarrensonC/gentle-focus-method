@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+// Criar canvas e desenhar favicon
+const canvas = document.createElement('canvas');
+canvas.width = 32;
+canvas.height = 32;
+const ctx = canvas.getContext('2d');
+
+// Gradiente
+const gradient = ctx.createLinearGradient(0, 0, 32, 32);
+gradient.addColorStop(0, '#5c6bc0');
+gradient.addColorStop(1, '#424242');
+
+// Círculos concêntricos
+ctx.strokeStyle = gradient;
+ctx.lineWidth = 2;
+ctx.globalAlpha = 0.3;
+ctx.beginPath();
+ctx.arc(16, 16, 14, 0, Math.PI * 2);
+ctx.stroke();
+
+ctx.globalAlpha = 0.5;
+ctx.beginPath();
+ctx.arc(16, 16, 10, 0, Math.PI * 2);
+ctx.stroke();
+
+// Ponto central
+ctx.fillStyle = gradient;
+ctx.globalAlpha = 1;
+ctx.beginPath();
+ctx.arc(16, 16, 4, 0, Math.PI * 2);
+ctx.fill();
+
+// Linha
+ctx.strokeStyle = gradient;
+ctx.globalAlpha = 0.6;
+ctx.lineWidth = 1.5;
+ctx.beginPath();
+ctx.moveTo(16, 12);
+ctx.lineTo(16, 6);
+ctx.stroke();
+
+// Download
+canvas.toBlob(function(blob) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'favicon.png';
+    a.click();
+});
+</script>
+</head>
+<body>Favicon generator</body>
+</html>

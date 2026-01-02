@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/gentle-focus-method.html"
+      "destination": "/front1.html"
     }
   ]
 }
