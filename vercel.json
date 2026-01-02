@@ -1,19 +1,12 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
     {
-      "src": "gentle-focus-method.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/gentle-focus-method.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/",
+      "destination": "/gentle-focus-method.html"
     }
   ]
 }
