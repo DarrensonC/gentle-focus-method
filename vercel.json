@@ -17,8 +17,8 @@
       "destination": "/up.html"
     },
     {
-      "source": "/obrigado",
-      "destination": "/obrigado.html"
+      "source": "/thanks",
+      "destination": "/thanks.html"
     }
   ]
 }
